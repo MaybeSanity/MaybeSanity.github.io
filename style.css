@@ -2,12 +2,12 @@ body {
     color: #fff;
     font-family: monospace;
     background-color: #282828;
-    background: linear-gradient(90deg, #FFBF40, #F5D064, #E6B166, #FFA04D, #F5925D);
+    background: linear-gradient(90deg, #0c54c0, #1972bb, #2cbec9, #00ffdde5, #00ff95);
     background-size: 400%, 400%;
     animation: Gradient 15s ease-in-out infinite;
 }
 
-@-webkit-keyframes Gradient {
+@keyframes Gradient {
     0% {
         background-position: 0% 50%;
     }
