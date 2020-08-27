@@ -28,9 +28,14 @@ body {
     transform: translate(-53%, 50%);
 }
 
+#hr1{
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
 li {
     list-style: none;
-    margin: 10px 30px;
+    margin: 20px 30px;
     display: inline-block;
     font-size: 35px;
     color: #fff;
@@ -62,3 +67,53 @@ a:hover {
     text-align: center;
     margin: 50px 50px;
 }
+
+#div2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    -webkit-user-select: none;
+    animation: rainbow .5s infinite; 
+}
+
+/* I stole this bit of code :O */
+@keyframes rainbow{
+    0%{color: orange;}	
+    10%{color: purple;}	
+	20%{color: red;}
+    30%{color: CadetBlue;}
+	40%{color: yellow;}
+    50%{color: coral;}
+	60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+@media screen and (min-width: 601px) {
+  #div1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #div1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  #hr1 {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #hr1 {
+    width: 375px;
+  }
+}
+
