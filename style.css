@@ -68,7 +68,8 @@ a:hover {
     margin: 50px 50px;
 }
 
-#div2 {
+#a1 {
+    font-family: 'Lexend Peta', sans-serif;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -76,6 +77,7 @@ a:hover {
     margin-bottom: 10px;
     -webkit-user-select: none;
     animation: rainbow .5s infinite; 
+    text-decoration: underline;
 }
 
 /* I stole this bit of code :O */
